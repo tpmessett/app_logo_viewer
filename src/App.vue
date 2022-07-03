@@ -211,6 +211,10 @@ a {
   display: block;
   width: 326px;
   height: 723px;
+  max-height: 723px;
+  max-width: 326px;
+  min-height: 723px;
+  min-width: 326px;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -222,6 +226,10 @@ a {
   display: block;
   width: 326px;
   height: 723px;
+  min-height: 723px;
+  min-width: 326px;
+  max-height: 723px;
+  max-width: 326px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -303,18 +311,18 @@ a {
     justify-content: center;
   }
   .icon-android {
-    bottom: -594px;
-    right: -277px;
+    bottom: -579px;
+    right: -260px;
   }
   .icon-iphone {
-    left: 32px;
+    left: 24px;
   }
   .app-name-iphone {
-    left: 23px;
+    left: 15px;
   }
   .app-name-android {
-    bottom: -601px;
-    right: -275px;
+    bottom: -585px;
+    right: -260px;
   }
 }
 </style>
