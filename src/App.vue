@@ -6,7 +6,7 @@
       <img id="main-image" class="main-icon" v-if="image" v-bind:src="image" />
       <p>{{text}}</p>
       <div class="warn" v-if="image && notSquare">
-        <p>Your logo is {{imgWidth}}px x {{imgHeight}}px. App logos should be square and 1024x1024px.</p>
+        <p>Your logo is {{imgWidth}}px x {{imgHeight}}px. App logos should be square and 1024px x 1024px.</p>
         <p>White padding will automatically be added to your image to make it appear as it would if squared off before upload to app stores.</p>
       </div>
     </div>
